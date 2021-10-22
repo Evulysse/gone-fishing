@@ -2,6 +2,7 @@
 const prompt = require("prompt-sync")({signit: true});
 console.log()
 console.log('Welcome to gone fishing. Try to maximize the value of your caught fish. You can fish for 6 hours and catch up to 10lbs of fish\n')  
+console.log();
 
 
 let firstFishAdjectives =[
@@ -85,8 +86,7 @@ function fishCalculation(fishes) {
     return fishCalculationReport;
 }
 
-console.log("You've gone fishing! Try to maximize the value of your caught fish.");
-console.log("You can fish for six hours (till 12:00pm) and can catch at most 10 lbs of fish.");
+
 console.log();
 
 let time = 6;
